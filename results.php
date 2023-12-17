@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . "/config/ApiController.php";
+require_once __DIR__ . "/controller/ApiController.php";
 $API = new API;
 
 if(!isset($_POST['key'])){
